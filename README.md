@@ -21,16 +21,11 @@ The things I do when setting up a new Mac.
 ## System Preferences
 - [ ] General > Sidebar icon size > large
 - [ ] Dock > automatically hide and show the Dock > enable
-- [ ] Language & Region >
+- [ ] Keyboard > Input Sources > add `Turkish - QWERTY PC`
 - [ ] Trackpad > enable taps
-
-## Shortcuts
-- [ ] Switch `Enter/Exit Full Screen` shortcut to `CMD + Enter`(inspired from iTerm)
+- [ ] Go over rest of the system preferences...
 
 ## Other
 - [ ] Make emojis faster using `defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false`
-- [ ] Add email to lock message in `Security & Privacy` settings
 - [ ] Enable zoom for `control` + scrolling (System Preferences -> Accessibility -> Zoom -> `Use scroll gesture ...`
-- [ ] Custom keyboard shortcut for all apps: `control` + tab => `Select Next Tab` and `Next Tab`, same for previous (used in applications like Tweetbot)
-- [ ] Keyboard `Key Repeat` to the fastest, `Delay` to the second shortest
-- [ ] Enable US keyboard with German Umlaut mapping (see `USGermanKeyboard` folder)
+- [ ] Download [`San Francisco` fonts](https://developer.apple.com/fonts/)
