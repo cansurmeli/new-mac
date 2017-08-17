@@ -11,8 +11,7 @@ The things I do when setting up a new Mac.
 - [ ] Login locally on GitHub
 - [ ] Transfer `.ssh` folder
 - [ ] Transfer `.directory_aliases` file
-- [ ] Transfer `.command_aliases` file
-- [ ] Transfer `.functions` file
+- [ ] Transfer `.confidential_functions` file
 
 ## Finder
 - [ ] Show Path Bar
