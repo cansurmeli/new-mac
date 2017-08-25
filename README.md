@@ -24,7 +24,15 @@ The things I do when setting up a new Mac.
 - [ ] Trackpad > enable taps
 - [ ] Go over rest of the system preferences...
 
+## Security
+- [ ] Enable password protection for the recovery partition
+
+## Xcode
+- [ ] Use tabs ;]
+- [ ] Set indentation to 2
+
 ## Other
+- [ ] Setup Time Machine
 - [ ] Make emojis faster using `defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false`
 - [ ] Enable zoom for `control` + scrolling (System Preferences -> Accessibility -> Zoom -> `Use scroll gesture ...`
 - [ ] Download [`San Francisco` fonts](https://developer.apple.com/fonts/)
