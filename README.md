@@ -8,10 +8,10 @@ The things I do when setting up a new Mac.
 - [ ] `./brewfile.sh`
 - [ ] `./caskfile.sh`
 - [ ] `./masfile.sh`
-- [ ] Login locally on GitHub
+- [ ] Login locally to GitHub
 - [ ] Transfer `.ssh` folder
-- [ ] Transfer `.directory_aliases` file
-- [ ] Transfer `.confidential_functions` file
+- [ ] Transfer `.directories` file
+- [ ] Transfer `.functions_confidential` file
 
 ## Finder
 - [ ] Show Path Bar
@@ -20,8 +20,10 @@ The things I do when setting up a new Mac.
 ## System Preferences
 - [ ] General > Sidebar icon size > large
 - [ ] Dock > automatically hide and show the Dock > enable
+- [ ] Keyboard > Input Sources > add `German`
 - [ ] Keyboard > Input Sources > add `Turkish - QWERTY PC`
 - [ ] Trackpad > enable taps
+- [ ] Customise TouchBar
 - [ ] Go over rest of the system preferences...
 
 ## Security
