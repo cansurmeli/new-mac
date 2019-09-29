@@ -13,7 +13,6 @@ brew cask install mamp
 brew cask install postman
 brew cask install qgis
 brew cask install sequel-pro
-brew cask install vmware-fusion
 
 # MEDIA
 brew cask install iina

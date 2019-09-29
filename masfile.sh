@@ -1,12 +1,10 @@
 mas install 443987910			# 1Password
 mas install 931657367			# Calcbot
 mas install 411643860			# DaisyDisk
-mas install 775737590			# iA Writer
 mas install 405772121			# LittleIpsum
 mas install 731738567			# Permute
 mas install 407963104			# Pixelmator
 mas install 1289583905		# Pixelmator Pro
-mas install 413965349			# Soulver
 mas install 747648890			# Telegram
 mas install 425424353			# The Unarchiver
 mas install 904280696			# Things
