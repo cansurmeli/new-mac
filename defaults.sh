@@ -27,10 +27,10 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 sudo pmset -a standbydelay 86400
 
 # Disable the sound effects on boot
-sudo nvram SystemAudioVolume=" "
+#sudo nvram SystemAudioVolume=" "
 
 # Disable transparency in the menu bar and elsewhere on Yosemite
-defaults write com.apple.universalaccess reduceTransparency -bool true
+#defaults write com.apple.universalaccess reduceTransparency -bool true
 
 # Always show scrollbars
 # - WhenScrolling
@@ -175,27 +175,27 @@ defaults write com.apple.dock autohide -bool true
 # Thanks, internet
 # https://www.jamf.com/jamf-nation/discussions/10576/menu-bar-customization
 
-PreferredMenuExtras=(
-"/Applications/Utilities/Keychain Access.app/Contents/Resources/Keychain.menu"
-"/System/Library/CoreServices/Menu Extras/AirPort.menu"
-"/System/Library/CoreServices/Menu Extras/Battery.menu"
-"/System/Library/CoreServices/Menu Extras/Bluetooth.menu"
-"/System/Library/CoreServices/Menu Extras/Clock.menu"
-"/System/Library/CoreServices/Menu Extras/Eject.menu"
-)
+#PreferredMenuExtras=(
+#"/Applications/Utilities/Keychain Access.app/Contents/Resources/Keychain.menu"
+#"/System/Library/CoreServices/Menu Extras/AirPort.menu"
+#"/System/Library/CoreServices/Menu Extras/Battery.menu"
+#"/System/Library/CoreServices/Menu Extras/Bluetooth.menu"
+#"/System/Library/CoreServices/Menu Extras/Clock.menu"
+#"/System/Library/CoreServices/Menu Extras/Eject.menu"
+#)
 
-currentUser=$( ls -l /dev/console | awk '{print $3}' )
+#currentUser=$( ls -l /dev/console | awk '{print $3}' )
 
-userHome=$( dscl . read /Users/$currentUser NFSHomeDirectory | awk '{print $NF}' )
+#userHome=$( dscl . read /Users/$currentUser NFSHomeDirectory | awk '{print $NF}' )
 
-MenuExtras=$( defaults read "$userHome/Library/Preferences/com.apple.systemuiserver.plist" menuExtras | awk -F'"' '{print $2}' )
+#MenuExtras=$( defaults read "$userHome/Library/Preferences/com.apple.systemuiserver.plist" menuExtras | awk -F'"' '{print $2}' )
 
-for menuExtra in "${PreferredMenuExtras[@]}"; do
-    menuShortName=$( echo "${menuExtra}" | awk -F'/' '{print $NF}' )
-    if [[ !$( echo "${MenuExtras}" | grep "${menuExtra}" ) ]]; then
-        open "${menuExtra}"
-    fi
-done
+#for menuExtra in "${PreferredMenuExtras[@]}"; do
+    #menuShortName=$( echo "${menuExtra}" | awk -F'/' '{print $NF}' )
+    #if [[ !$( echo "${MenuExtras}" | grep "${menuExtra}" ) ]]; then
+        #open "${menuExtra}"
+    #fi
+#done
 
 #defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 

@@ -3,43 +3,35 @@
 #brew cask install reduce
 brew cask install sketch
 #brew cask install zeplin
+brew cask install xscope
 
 # DEVELOPMENT
 brew cask install docker
-brew cask install fastlane
+#brew cask install fastlane
 brew cask install firefox
 brew cask install fritzing
-brew cask install mamp
+#brew cask install mamp
 brew cask install postman
-brew cask install qgis
-brew cask install sequel-pro
-brew cask install virtualbox
+#brew cask install qgis
+#brew cask install sequel-pro
 
 # MEDIA
 brew cask install iina
-brew cask install plex
+#brew cask install plex
 
 # QUICKlOOK PLUGINS
-# Catalina breaks these because they're not notarised.
-#brew cask install qlcolorcode
-#brew cask install qlstephen
-#brew cask install qlmarkdown
-#brew cask install quicklook-json
-#brew cask install qlprettypatch
-#brew cask install quicklook-csv
-#brew cask install betterzipql
+brew cask install qlcolorcode
+brew cask install qlcommonmark
+brew cask install qlstephen
+brew cask install quicklook-json
 #brew cask install qlimagesize
-#brew cask install webpquicklook
-#brew cask install suspicious-package
-#brew cask install quicklookase
-#brew cask install qlvideo
 
 # TOOLS
 brew cask install appcleaner
 brew cask install colloquy
 brew cask install istat-menus
 brew cask install istat-server
-brew cask install kap
+#brew cask install kap
 #brew cask install mactex
 brew cask install mathpix-snipping-tool
 brew cask install pdfinfo
@@ -49,5 +41,9 @@ brew cask install transmission
 brew cask install suspicious-package		# All cool, actually a security inspection tool.
 
 # OTHER
+brew cask install 1password
 brew cask install aerial
-brew cask install spotify
+brew cask install daisydisk
+brew cask install tweetbot
+brew cask install telegram
+brewe cask install the-unarchiver
