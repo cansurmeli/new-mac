@@ -1,57 +1,56 @@
 # DESIGN
-#brew cask install abstract
-#brew cask install reduce
-brew cask install sketch
-#brew cask install zeplin
-brew cask install xscope
+#brew install --cask abstract
+#brew install --cask reduce
+brew install --cask sketch
+brew install --cask zeplin
+brew install --cask xscope
 
 # DEVELOPMENT
-brew cask install docker
-#brew cask install fastlane
-brew cask install firefox
-brew cask install fritzing
-#brew cask install mamp
-brew cask install postman
-#brew cask install qgis
-#brew cask install sequel-pro
+#brew install --cask docker
+#brew install --cask fastlane
+brew install --cask firefox
+#brew install --cask fritzing
+#brew install --cask mamp
+brew install --cask postman
+#brew install --cask qgis
+#brew install --cask sequel-pro
 
 # MEDIA
-brew cask install iina
-brew cask install plex
+brew install --cask iina
+brew install --cask plex
 
 # QUICKlOOK PLUGINS
-brew cask install qlcolorcode
-brew cask install qlcommonmark
-brew cask install qlstephen
-brew cask install quicklook-json
-#brew cask install qlimagesize
+brew install --cask qlcolorcode
+brew install --cask qlcommonmark
+brew install --cask qlstephen
+brew install --cask quicklook-json
+#brew install --cask qlimagesize
 
 # TOOLS
-brew cask install appcleaner
-brew cask install balenaetcher
-brew cask install colloquy
-brew cask install istat-menus
-brew cask install istat-server
-#brew cask install kap
-#brew cask install mactex
-brew cask install mathpix-snipping-tool
-brew cask install monitorcontrol
-brew cask install pdfinfo
-brew cask install skype
-brew cask install transmission
-brew cask install tunnelblick
-#brew cask install suspicious-package		# All cool, actually a security inspection tool.
-brew cask install the-unarchiver
+brew install --cask appcleaner
+#brew install --cask balenaetcher
+#brew install --cask colloquy
+brew install --cask istat-menus
+#brew install --cask istat-server
+#brew install --cask kap
+#brew install --cask mactex
+brew install --cask mathpix-snipping-tool
+brew install --cask monitorcontrol
+#brew install --cask pdfinfo
+brew install --cask skype
+#brew install --cask transmission
+#brew install --cask tunnelblick
+#brew install --cask suspicious-package		# All cool, actually a security inspection tool.
+brew install --cask the-unarchiver
 
 # OTHER
-brew cask install 1password
-brew cask install aerial
-brew cask install camo-studio
-brew cask install daisydisk
-brew cask install mathpix-snipping-tool
-brew cask install netnewswire
-brew cask install nextcloud
-brew cask install teamviewer
-brew cask install telegram
-#brew cask install tweetbot
-brew cask install zoom
+brew install --cask 1password
+brew install --cask aerial
+#brew install --cask camo-studio
+brew install --cask daisydisk
+brew install --cask netnewswire
+#brew install --cask nextcloud
+#brew install --cask teamviewer
+brew install --cask telegram
+#brew install --cask tweetbot
+brew install --cask zoom
