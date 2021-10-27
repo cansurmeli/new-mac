@@ -13,6 +13,8 @@ The things I do when setting up a new Mac.
 - [ ] Transfer `.directories` file
 - [ ] Transfer `.functions_confidential` file
 
+> A small tip. Currently, even with a fast internet connection. installing Xcode takes a whole lot of time; especially the installation after the download is really arduous. Therefore, it could be better to grap `Command Line Tools` separately since a lot of various stuff makes use of it and Xcode's installation will hang the process up!
+
 ## Finder
 - [ ] Show Path Bar
 - [ ] Remove labels and clean up Sidebar
