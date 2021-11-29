@@ -24,6 +24,8 @@ brew install --cask qlcolorcode
 brew install --cask qlcommonmark
 brew install --cask qlstephen
 brew install --cask quicklook-json
+brew install --cask quicklook-csv
+#brew install --cask qlvideo   # although, I don't like it asking for my password
 #brew install --cask qlimagesize
 
 # TOOLS
