@@ -8,7 +8,6 @@ brew install ffmpeg							# Play, record, convert, and stream audio and video
 brew install git-delta                      # Syntax-highlighting pager for git and diff output
 brew install git-lfs                        # Git extension for versioning large files
 brew install highlight						# Convert source code to formatted text with syntax highlighting
-brew install highlight						# Convert source code to formatted text with syntax highlighting
 brew install hugo							# Configurable static site generatoro
 brew install imagemagick					# Tools and libraries to manipulate images in many formats
 brew install mas							# Mac App Store command-line interface
