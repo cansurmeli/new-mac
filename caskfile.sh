@@ -54,5 +54,4 @@ brew install --cask netnewswire
 #brew install --cask nextcloud
 #brew install --cask teamviewer
 brew install --cask telegram
-#brew install --cask tweetbot
 brew install --cask zoom
